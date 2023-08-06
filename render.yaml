@@ -1,0 +1,6 @@
+# render.yaml
+
+# 路由配置，重写所有请求到 /index.html
+routes:
+  - src: /<KleeneStar:.*>
+    dest: /index.html
