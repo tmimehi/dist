@@ -4,3 +4,4 @@
 routes:
   - src: /<KleeneStar:.*>
     dest: /index.html
+    /column/:bar /:bar/:bar
