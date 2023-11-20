@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 # render.yaml
 
 # 路由配置，重写所有请求到 /index.html
 routes:
   - src: /<KleeneStar:.*>
     dest: /index.html
+=======
+# render.yaml
+
+# 路由配置，重写所有请求到 /index.html
+routes:
+  - src: /<KleeneStar:.*>
+    dest: /index.html
+    /column/:bar /:bar/:bar
+>>>>>>> 64da7936a3e9ac9e715e18e99be2c555b3d843d6
